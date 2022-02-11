@@ -50,3 +50,5 @@ series, squeeze=True: We hint that we only have one data column and that we are 
 ## Grid Search ARIMA Model Hyperparameters
 ## Forecast Confidence Intervals
 
+## Prepare "Time Series" data for CNNs and LSTMs:
+## Develop CNNs for Time SeriesForecasting:
