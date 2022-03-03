@@ -8,6 +8,7 @@ dates that need to be parsed, index col=0: We hint that the first column contain
 
 ## Basic Feature Engineering:
 * Date Time Features
+*  ![alt text](time-features.webp)
 * Lag Features (shift())
 * Rolling Window Statistics (rollling(window=2)
 * Expanding Window Statistics
