@@ -14,14 +14,18 @@ dates that need to be parsed, index col=0: We hint that the first column contain
 * Expanding Window Statistics
 
 ## Data visualization:
-* Line Plots.
+* Line Plots (pd.grouper())
 * Histograms and Density Plots.
 * Box and Whisker Plots.
 * Heat Maps.
 * Lag Plots or Scatter Plots.
 * Autocorrelation Plots.
 ## Resampling & Interpolation:
+resample('D') to resample & interpolate() function to interpolate missing values.
 ## Power transforms:
+* Identify a quadratic change and use the square root transform.
+* Identify an exponential change and how to use the log transform.
+* Use the Box-Cox transform to perform square root and log transforms andautomatically optimize the transform for a dataset.
 ## Moving Average Smoothing
 ## Introduction to White Noise
 * White noise time series is defined by a zero mean, constant variance, and zero correlation, 
