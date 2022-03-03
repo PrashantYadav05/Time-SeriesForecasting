@@ -1,16 +1,15 @@
 # Time-Series Forecasting
 ## Load & explore Time-Series data: 
-(header=0: We must specify the header information at row 0, parse dates=True: We give the function a hint that data in the rst column contains
-dates that need to be parsed, index col=0: We hint that the first column contains the index information for the time
-series, squeeze=True: We hint that we only have one data column and that we are interested in a Series and not a DataFrame)
+(header=0: We must specify the header information at row 0, parse_dates=True: We give the function a hint that data in the first column contains
+dates that need to be parsed, index col=0: We hint that the first column contains the index information for the timeseries, squeeze=True: We hint that we only have one data column and that we are interested in a Series and not a DataFrame)
 * How to load your time series dataset from a CSV file using Pandas.
 * How to peek at the loaded data and query using date-times.
 * How to calculate and review summary statistics.
 
 ## Basic Feature Engineering:
 * Date Time Features
-* Lag Features
-* Rolling Window Statistics
+* Lag Features (shift())
+* Rolling Window Statistics (rollling(window=2)
 * Expanding Window Statistics
 
 ## Data visualization:
