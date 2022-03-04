@@ -28,6 +28,7 @@ resample('D') to resample & interpolate() function to interpolate missing values
 * Use the Box-Cox transform to perform square root and log transforms andautomatically optimize the transform for a dataset.
 ## Moving Average Smoothing
 ## Introduction to White Noise
+A time series is white noise if the variables are independent and identically distributed with a mean of zero. This means that all variables have the same variance (sigma2) and each value has a zero correlation with all other values in the series.
 * White noise time series is defined by a zero mean, constant variance, and zero correlation, 
 * If your time series is white noise, it cannot be predicted, and if your forecast residuals are not white noise, you may be able to improve your model.
 ## Introduction to the Random Walk
